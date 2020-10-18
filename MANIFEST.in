@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kimstheme *.css
+recursive-include kimstheme *.csv
+recursive-include kimstheme *.html
+recursive-include kimstheme *.ico
+recursive-include kimstheme *.js
+recursive-include kimstheme *.json
+recursive-include kimstheme *.md
+recursive-include kimstheme *.png
+recursive-include kimstheme *.py
+recursive-include kimstheme *.svg
+recursive-include kimstheme *.txt
+recursive-exclude kimstheme *.pyc
